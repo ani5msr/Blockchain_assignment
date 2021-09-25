@@ -33,19 +33,19 @@ Now to run, open two terminals and navigate both to repo. Use following commands
 
 ```
 For the first instance on port 5000:
-
+```
 set FLASK_APP=main.py
 
 python -m flask run --port 5000 --debugger --reload
+```
   
 For the second instance on port 5001:   
-
+```
 set FLASK_APP=main.py
 
 python -m flask run --port 5001 --debugger --reload
 ```
-Now we will have two instances running on http://localhost:5000 and http://localhost:5001.   
-![index](https://user-images.githubusercontent.com/30752980/110203144-67feaa00-7e92-11eb-90f5-3a81a91153af.png)
+```
 
 After starting both the instances, you can make a transaction by filling in both the private key and public key
 
