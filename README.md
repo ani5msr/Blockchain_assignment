@@ -29,11 +29,13 @@ Now to run, open two terminals and navigate both to repo. Use following commands
 For the first instance on port 5000:
 ```
 set FLASK_APP=main.py
+
 flask run --port 5000 --debugger --reload
 ```   
 For the second instance on port 5001:   
 ```
 set FLASK_APP=main.py
+
 flask run --port 5001 --debugger --reload
 ```
 Now we will have two instances running on http://localhost:5000 and http://localhost:5001.   

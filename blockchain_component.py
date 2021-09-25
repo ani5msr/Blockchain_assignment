@@ -23,7 +23,7 @@ class Block:
 class Blockchain:
 	def __init__(self):
 		#hash should start with this no. of zeros for proof_of_work
-		self.zeros_difficulty = 2 
+		self.zeros_difficulty = 4
 		self.unverified_transactions = []
 		self.chain = []
 		self.genesis_block() #genesis block will be created with initialization.
