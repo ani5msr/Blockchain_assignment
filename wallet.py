@@ -1,6 +1,6 @@
 from ecdsa import SigningKey, SECP256k1
 
-def generate_wallet():
+def wallet():
 	'''- private/secret/signing key(sk) will be used to generate signature which can be verified with 
 	the public key(pk) associated with that private key only.
 	- to_string() will give bytes format then hex() will give hexcode in string format.'''
@@ -17,4 +17,4 @@ def generate_wallet():
 		file.write("Private Key/Signing Key: {}\nPublic Key/Wallet Address: {}".format(readable_sk, readable_pk))
 	print("Your credentials saved in 'wallet.txt' file!")
 
-generate_wallet()
+wallet()
