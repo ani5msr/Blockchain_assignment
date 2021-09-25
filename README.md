@@ -16,9 +16,10 @@ Clone the repo and then install the dependencies using
 pip install -r requirements.txt
 ``
 In the ```config_peers.py``` add the peers you wish to have while running the network. By default we have some peers added to file like:
+peers = {'http://127.0.0.1:5000/', 'http://127.0.0.1:5001/'}
 ```
-# store all url's running on the network here in string format, so that they can communicate
-# for example: 'http://127.0.0.1:5000/'
+ store all url's running on the network here in string format, so that they can communicate
+for example: 'http://127.0.0.1:5000/'
 peers = {'http://127.0.0.1:5000/', 'http://127.0.0.1:5001/'}
 ```
 The wallet.py file is used to generate a public key and a private key pair for so that anyone can make a transaction against the private key and Dexter can verify the transaction using the public key and private key pair.
