@@ -49,7 +49,7 @@ class Blockchain:
 		return False
 
 	def mine(self):
-		'''this adds all unconfirmed transactions into a block and
+		'''this adds all unverified transactions into a block first and
 			finds valid proof_of_work for that block in order to 
 			add it to blockchain'''
 		if not self.unverified_transactions:
