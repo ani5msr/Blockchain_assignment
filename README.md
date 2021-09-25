@@ -1,4 +1,4 @@
-# blockchain_implementation
+# blockchain_assignment
 
 Dexter owns the most famous coffee shop of his town and has plenty of friends who often come by his shop. He uses logbooks to store the transaction data. As his shop is very famous, he often runs out of logbooks. Some of Dexter's friends have access to his shop and they would often remove/edit their transactions from the logbook which would make him lose money. Dexter recently heard about blockchain technology and is wondering how he can use it in his business so that he can continue his work more efficiently. 
 
