@@ -30,14 +30,16 @@ The wallet.py file is used to generate a public key and a private key pair for s
 
 The current public key and private key are contained in the wallet_keys.txt file. You can use it to make transactions
 Now to run, open two terminals and navigate both to repo. Use following commands to run instances of our application:   
-For the first instance on port 5000:
+
 ```
+For the first instance on port 5000:
+
 set FLASK_APP=main.py
 
 python -m flask run --port 5000 --debugger --reload
-```   
+  
 For the second instance on port 5001:   
-```
+
 set FLASK_APP=main.py
 
 python -m flask run --port 5001 --debugger --reload
