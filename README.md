@@ -3,9 +3,13 @@
 Dexter owns the most famous coffee shop of his town and has plenty of friends who often come by his shop. He uses logbooks to store the transaction data. As his shop is very famous, he often runs out of logbooks. Some of Dexter's friends have access to his shop and they would often remove/edit their transactions from the logbook which would make him lose money. Dexter recently heard about blockchain technology and is wondering how he can use it in his business so that he can continue his work more efficiently. 
 
 Help Dexter to create his own Blockchain with the following functionalities (2 points for each feature) :
+
 1.Dexter has information regarding all the available blocks.
+
 2.None of Dexter's friends should be able to edit the added transactions.
+
 3.Timestamp of each transaction is readily available.
+
 4.Dexter should have all the information regarding the completed transactions.
 
 
@@ -30,13 +34,13 @@ For the first instance on port 5000:
 ```
 set FLASK_APP=main.py
 
-flask run --port 5000 --debugger --reload
+python -m flask run --port 5000 --debugger --reload
 ```   
 For the second instance on port 5001:   
 ```
 set FLASK_APP=main.py
 
-flask run --port 5001 --debugger --reload
+python -m flask run --port 5001 --debugger --reload
 ```
 Now we will have two instances running on http://localhost:5000 and http://localhost:5001.   
 ![index](https://user-images.githubusercontent.com/30752980/110203144-67feaa00-7e92-11eb-90f5-3a81a91153af.png)
