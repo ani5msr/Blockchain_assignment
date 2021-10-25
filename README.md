@@ -55,3 +55,12 @@ After making the transactions, they are put in the unverified_transactions which
 After the transactions has been put in unverified_transactions, they can be mined by http://localhost:5001/mine_transactions through which Dexter can verify the transactions by first validating the signature on the blocks and then creating a hash of the block with the appropriate difficulty which then gets added to the blockchain
 
 After all the transactions have been mined and verified, Dexter can view them using  http://localhost:5001/blockchain which will show all the blocks of transactions
+
+
+
+## Assignment -2:
+
+
+The Delegated proof of stake is a popular evolution of the PoS concept, whereby users of the network vote and elect delegates to validate the next block. Delegates are also called witnesses or block producers. Using DPoS, you can vote on delegates by pooling your tokens into a staking pool and linking those to a particular delegate. You do not physically transfer your tokens to another wallet, but instead utilize a staking service provider to stake your tokens in a staking pool.
+
+A limited number of delegates (most protocols choose between 20 and 100) are chosen for each new block, so the delegates of one block might not be the delegates of the next. Elected delegates receive the transaction fees from the validated block, and that reward is then shared with users who pooled their tokens in the successful delegate’s pool. The more you stake, the higher a share of the block reward you recieve. The rewards are shared based on each user’s stake; so if your stake represents 5% of the total staking balance, you would receive 5% of the block reward.
