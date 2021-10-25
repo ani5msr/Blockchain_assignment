@@ -56,7 +56,7 @@ After the transactions has been put in unverified_transactions, they can be mine
 
 After all the transactions have been mined and verified, Dexter can view them using  http://localhost:5001/blockchain which will show all the blocks of transactions
 
-
+```
 
 ## Assignment -2:
 
